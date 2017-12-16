@@ -1,0 +1,31 @@
+{
+  "name": "render-bmfont",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "dependencies": {
+    "layout-bmfont-text": "^1.3.4",
+    "load-bmfont": "^1.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "6.26.0",
+    "npm-run-all": "3.1.1",
+    "nsp": "2.6.2",
+    "webpack": "^3.0.0",
+    "webpack-dev-middleware": "1.8.4",
+    "webpack-hot-middleware": "2.13.0",
+    "webpack-md5-hash": "0.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tufao/render-bmfont.git"
+  },
+  "author": "",
+  "license": "MIT"
+}
