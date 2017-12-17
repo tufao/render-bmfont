@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "sudo npm-run-all --parallel create-bundle watch open:server",
+    "watch": "webpack --watch",
+    "create-bundle": "npx webpack",
+    "open:server": "sudo http-server src -p 80"
   },
   "dependencies": {
     "layout-bmfont-text": "^1.3.4",
@@ -17,6 +21,7 @@
     "babel-register": "6.26.0",
     "npm-run-all": "3.1.1",
     "nsp": "2.6.2",
+    "open": "0.0.5",
     "webpack": "^3.0.0",
     "webpack-dev-middleware": "1.8.4",
     "webpack-hot-middleware": "2.13.0",
@@ -26,6 +31,6 @@
     "type": "git",
     "url": "https://github.com/tufao/render-bmfont.git"
   },
-  "author": "",
+  "author": "Hugo Silveira",
   "license": "MIT"
 }
