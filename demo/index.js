@@ -1,4 +1,4 @@
-import * as bmpfont from './bmpfont.js'
+import * as bmpfont from '../src/bmpfont.js'
 
 var canvas = document.createElement('canvas');
 var context = canvas.getContext("2d");
